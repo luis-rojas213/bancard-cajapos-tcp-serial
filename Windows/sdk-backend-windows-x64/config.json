@@ -1,0 +1,21 @@
+{
+  "com": "com1",
+  "reintentos": 3,
+  "transaction_timeout": 1,
+  "server": {
+    "port": 3000
+  },
+  "log": {
+    "maxSize": 5,
+    "backups": 3
+  },
+  "tam":100,
+  "delayTime":100,
+  "baudRate": 9600,
+  "bufferSize": 250,
+  "useTCP": false,
+  "tcpPOS": {
+    "host": "192.168.1.102",
+    "port": 15000
+  }
+}
